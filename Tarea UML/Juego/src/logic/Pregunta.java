@@ -7,14 +7,14 @@ public class Pregunta {
 	//Estados
 	private String enunciado;
 	
-	private ArrayList<Respuesta> Respuesta;
+	private ArrayList<Respuesta> respuestas;
 	
 	
 	//Constructor completo
-	public Pregunta(String enunciado, ArrayList<logic.Respuesta> respuesta) {
+	public Pregunta(String enunciado, ArrayList<logic.Respuesta> respuestas) {
 		super();
 		this.enunciado = enunciado;
-		Respuesta = respuesta;
+		this.respuestas = respuestas;
 	}
 	
 	
@@ -28,15 +28,15 @@ public class Pregunta {
 		this.enunciado = enunciado;
 	}
 
-	public ArrayList<Respuesta> getRespuesta() {
-		return Respuesta;
+	public ArrayList<Respuesta> getRespuestas() {
+		return respuestas;
 	}
 
 	public void setRespuesta(ArrayList<Respuesta> respuesta) {
-		Respuesta = respuesta;
+		this.respuestas = respuestas;
 	}
 
-
+	public void 
 	
 	
 	

@@ -7,15 +7,15 @@ public class Jugador extends Usuario{
 	//Estados
 	private int puntaje;
 	
-	private ArrayList<Pregunta> Pregunta;
+	private ArrayList<Pregunta> preguntas;
 	
 	
 	//Constructor completo
 
-	public Jugador(String nombre, int cedula, int puntaje, ArrayList<logic.Pregunta> pregunta) {
+	public Jugador(String nombre, int cedula, int puntaje, ArrayList<logic.Pregunta> preguntas) {
 		super(nombre, cedula);
 		this.puntaje = puntaje;
-		Pregunta = pregunta;
+		this.preguntas = preguntas;
 	}
 
 
@@ -28,16 +28,16 @@ public class Jugador extends Usuario{
 		this.puntaje = puntaje;
 	}
 
-	public ArrayList<Pregunta> getPregunta() {
-		return Pregunta;
+	public ArrayList<Pregunta> getPreguntas() {
+		return preguntas;
 	}
 
-	public void setPregunta(ArrayList<Pregunta> pregunta) {
-		Pregunta = pregunta;
+	public void setPregunta(ArrayList<Pregunta> preguntas) {
+		this.preguntas = preguntas;
 	}
 	
 	
-	//Relaciones
+	public void addPreguntas(Pregunta)
 	
 	
 	
